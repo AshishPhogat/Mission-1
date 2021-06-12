@@ -22,7 +22,8 @@ body{
           color:#fff;
           padding:12px;
           border:none;
-          border-radius: 6px;;
+          border-radius: 6px;
+          cursor:pointer;
 
     
 
@@ -58,6 +59,20 @@ body{
 .hero__image{
     width:100%;
 }
+.hero__text{
+    font-size:30px;
+    color:#1d3557;
+    margin:20px 0;
+}
+/* menu styles */
+
+.food__menu__card{
+    width:100%;
+}
+.food__image{
+    width:100%;
+}
+
 
 @media (min-width:768px){
     .navbar{
@@ -68,7 +83,7 @@ body{
         width:150px;
     }
     .button__Primary{
-        padding:20px;
+        padding:12px 20px;
         font-size:20px;
 
     }
@@ -82,16 +97,24 @@ body{
 }
 @media (min-width:1020px){
     .container{
-        max-width:1010px;
+        max-width:900px;
         
 
     }
     .hero__image__container{
-        width:500px;
+        width: 5px;00px;
         height:500px;
+    }
+    .hero__description{
+        width:100%;
     }
 }
 
 @media (min-width:1400px){
     
+    .container{
+        max-width:1250px;
+    }
+    
+
 }
