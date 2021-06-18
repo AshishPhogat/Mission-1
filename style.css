@@ -145,6 +145,11 @@ cursor:pointer;
     border-radius:5px;
 
 }
+/* form */
+.updation__form{
+    display:flex;
+    align-items:center;
+}
 
 
 @media (min-width:768px){
